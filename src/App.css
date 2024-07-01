@@ -1,0 +1,113 @@
+
+
+header{
+  display:flex;
+  background-color: black;
+  color: white;
+  border-bottom: 3px solid ;
+  height:30px;
+  padding: 20px 20px;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content:space-around ;
+  font-size:larger;
+  text-align: center;
+}
+.addcontact form div{
+  margin-bottom: 5px;
+}
+.addcontact form label {
+  margin-bottom: 5px;
+}
+.addcontact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addcontact button{
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+.addcontact form{
+  display: flex;
+  gap:50px;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px; /* Set a fixed width for the form */
+  margin-top: 20px;
+}
+
+.addcontact form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.addcontact form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.addcontact form label {
+  font-size: 16px;
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.addbutton{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+.buttons{
+  display: flex;
+  gap:20px;
+}
+.search{
+  margin-top: 10px;
+}
+.searchin{
+  padding: 8px;
+  border: solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.category{
+  display: flex;
+  gap:20px;
+
+}
